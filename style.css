@@ -1,0 +1,101 @@
+/* =========================================================
+   PMEGP DASHBOARD
+========================================================= */
+
+.stApp{
+    background-color:#F4F7FC;
+}
+
+/* =========================================================
+   SIDEBAR
+========================================================= */
+
+section[data-testid="stSidebar"]{
+    background:#0B5ED7;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white !important;
+}
+
+section[data-testid="stSidebar"] hr{
+    border-color:rgba(255,255,255,.30);
+}
+
+/* =========================================================
+   MAIN CONTAINER
+========================================================= */
+
+.main .block-container{
+
+    padding-top:2rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-bottom:2rem;
+
+}
+
+/* =========================================================
+   TITLES
+========================================================= */
+
+h1{
+    color:#111111 !important;
+    font-weight:700 !important;
+}
+
+h2{
+    color:#111111 !important;
+}
+
+h3{
+    color:#111111 !important;
+}
+
+h4{
+    color:#111111 !important;
+}
+
+p{
+    color:#555555 !important;
+}
+
+/* =========================================================
+   METRIC CARDS
+========================================================= */
+
+div[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:15px;
+
+    border:1px solid #E5E7EB;
+
+    padding:18px;
+
+    box-shadow:0px 2px 8px rgba(0,0,0,.08);
+
+}
+
+/* =========================================================
+   DATAFRAME
+========================================================= */
+
+div[data-testid="stDataFrame"]{
+
+    background:white;
+
+    border-radius:15px;
+
+}
+
+/* =========================================================
+   PLOTLY
+========================================================= */
+
+.js-plotly-plot{
+
+    border-radius:15px;
+
+}
